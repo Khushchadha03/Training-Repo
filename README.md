@@ -1,2 +1,2 @@
 # Training-Repo
-What i did during the training
+What i did during the training in Diggibyte Technologies
