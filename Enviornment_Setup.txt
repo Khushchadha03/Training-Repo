@@ -1,0 +1,24 @@
+Different ways to make an Enviornment 
+using python command
+python -m venv myenv - default env will be setup
+for activating in myenv and then scripts and then activate deactivate will be there
+to activate - myenv\Scripts\activate (so my enviornment is activated)
+ or you can download with pip install numpy or pandas
+for later if you hv n number of library you can create a requirements.txt
+for deactivate just write deactivate
+
+
+2nd way mainly for linux commands itself
+pip install virtualenv 
+virtualenv -p python3 virtual_env
+for activating --- virtual_env\Scripts\activate   
+deactivate
+.gitignore for ignoring installed_libraries/virtual_env to upload on github
+
+
+3rd way /// BEST WAY Because it will not store any libraries in repos and we can use python other versions and also we can use in any system like linux,mac or Windows. The code will remain same
+conda create --name name
+conda activate
+deactivate
+conda remove --name name --all
+pip install -r requirements.txt  ----- for libraries
